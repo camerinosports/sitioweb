@@ -1,0 +1,1850 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <!--comenzamos con la seccion menu-->
+        <section class="seccion-menu">
+          <div class="menu">
+            <img class="logo-1" src="" alt=""> <!--AQUI SE DEBE PONER EL LOGO-->
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="imagenes/Logos/logo-menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="nabvar">
+                <div class="menu-1">
+                    <u1>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="http://127.0.0.1:5500/nosotros.html">Nosotros</a></li>
+                        <li><a href="#products">Productos</a></li>
+
+                    </u1>
+                </div>
+                
+                <img class="logo-2" src="imagenes/Logos/LOGOORIGEN.png" alt="">
+
+                <div class="menu-2">
+                    <ul>
+                        <!--<li><a href="#">Horario</a></li>-->
+                    </ul>
+    
+                    <div class="socials">
+                        <a href="https://www.facebook.com/CamerinoSports/" target="_blank">
+                            <div class="social">
+                                <svg width="13" height="20" viewBox="0 0 13 20" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                                 <path d="M12.1481 11.25L12.8222 7.63047H8.60725V5.28164C8.60725 4.29141 9.19605 3.32617 11.0838 3.32617H13V0.244531C13 0.244531 11.2611 0 9.59853 0C6.12738 0 3.85847 1.73359 3.85847 4.87188V7.63047H0V11.25H3.85847V20H8.60725V11.25H12.1481Z"/>
+                                </svg>
+                            </div>
+                        </a>
+                        <a href="https://www.tiktok.com/@camerinosports">
+                            <div class="social">                              
+                                <svg width="20" height="20" viewBox="0 0 42 42" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                                  <g>
+                                    <path d="M14 15.599v-1.486A13.1 13.1 0 0 0 12.337 14C5.535 14 0 19.18 0 25.547 0 29.452 2.086 32.91 5.267 35c-2.13-2.132-3.315-4.942-3.313-7.861 0-6.276 5.377-11.394 12.046-11.54"/>
+                                    <path d="M14.327 32c2.876 0 5.221-2.273 5.328-5.107l.01-25.292h4.65A8.72 8.72 0 0 1 24.164 0h-6.35l-.011 25.293c-.106 2.832-2.453 5.105-5.328 5.105a5.329 5.329 0 0 1-2.476-.61A5.34 5.34 0 0 0 14.327 32m18.672-21.814V8.78a8.818 8.818 0 0 1-4.81-1.421A8.85 8.85 0 0 0 33 10.186"/>
+                                    <path d="M28 7.718A8.63 8.63 0 0 1 25.832 2h-1.697A8.735 8.735 0 0 0 28 7.718M12.325 20.065c-2.94.004-5.322 2.361-5.325 5.27A5.267 5.267 0 0 0 9.854 30a5.2 5.2 0 0 1-1.008-3.073c.003-2.91 2.385-5.268 5.325-5.271.55 0 1.075.09 1.572.244v-6.4a11.72 11.72 0 0 0-1.572-.114c-.092 0-.183.006-.274.007v4.916a5.286 5.286 0 0 0-1.572-.244"/>
+                                    <path d="M32.153 11v4.884a15.15 15.15 0 0 1-8.813-2.811V25.84c0 6.377-5.23 11.565-11.658 11.565-2.485 0-4.789-.778-6.682-2.097A11.67 11.67 0 0 0 13.528 39c6.429 0 11.659-5.188 11.659-11.564V14.668A15.15 15.15 0 0 0 34 17.478v-6.283A8.87 8.87 0 0 1 32.153 11"/>
+                                    <path d="M23.979 25.42V12.632A15.741 15.741 0 0 0 33 15.448v-4.89a9.083 9.083 0 0 1-4.912-2.82C26.016 6.431 24.586 4.358 24.132 2h-4.747l-.01 25.215c-.11 2.824-2.505 5.09-5.44 5.09-1.754-.002-3.398-.822-4.42-2.204-1.794-.913-2.919-2.716-2.92-4.682.003-2.92 2.44-5.285 5.45-5.289.56 0 1.098.09 1.608.245v-4.933C7.202 15.589 2 20.722 2 27.016c0 3.045 1.219 5.816 3.205 7.885A12.115 12.115 0 0 0 12.045 37c6.58 0 11.934-5.195 11.934-11.58"/>
+                                  </g>
+                                </svg>
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/camerino_sports_oficial/" target="_blank">
+                            <div class="social">
+                                <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                                    <path d="M10.0022 4.87225C7.16453 4.87225 4.87563 7.16166 4.87563 10C4.87563 12.8383 7.16453 15.1277 10.0022 15.1277C12.8399 15.1277 15.1288 12.8383 15.1288 10C15.1288 7.16166 12.8399 4.87225 10.0022 4.87225ZM10.0022 13.3337C8.16843 13.3337 6.66927 11.8387 6.66927 10C6.66927 8.16133 8.16397 6.66629 10.0022 6.66629C11.8405 6.66629 13.3352 8.16133 13.3352 10C13.3352 11.8387 11.836 13.3337 10.0022 13.3337ZM16.5343 4.6625C16.5343 5.32746 15.9989 5.85853 15.3385 5.85853C14.6737 5.85853 14.1428 5.32299 14.1428 4.6625C14.1428 4.00201 14.6782 3.46647 15.3385 3.46647C15.9989 3.46647 16.5343 4.00201 16.5343 4.6625ZM19.9297 5.87638C19.8539 4.27424 19.488 2.85507 18.3146 1.68582C17.1456 0.516568 15.7267 0.150619 14.1249 0.070289C12.4741 -0.0234297 7.52593 -0.0234297 5.87507 0.070289C4.27775 0.146156 2.8589 0.512105 1.68544 1.68136C0.511991 2.85061 0.150586 4.26978 0.0702733 5.87192C-0.0234244 7.52315 -0.0234244 12.4724 0.0702733 14.1236C0.146124 15.7258 0.511991 17.1449 1.68544 18.3142C2.8589 19.4834 4.27329 19.8494 5.87507 19.9297C7.52593 20.0234 12.4741 20.0234 14.1249 19.9297C15.7267 19.8538 17.1456 19.4879 18.3146 18.3142C19.4835 17.1449 19.8494 15.7258 19.9297 14.1236C20.0234 12.4724 20.0234 7.52761 19.9297 5.87638ZM17.797 15.8953C17.449 16.7701 16.7752 17.4439 15.8963 17.7965C14.58 18.3186 11.4568 18.1981 10.0022 18.1981C8.54769 18.1981 5.41997 18.3142 4.1082 17.7965C3.23369 17.4484 2.55996 16.7745 2.20747 15.8953C1.68544 14.5788 1.80591 11.4549 1.80591 10C1.80591 8.54513 1.68991 5.41671 2.20747 4.10465C2.55549 3.22995 3.22922 2.55606 4.1082 2.2035C5.42443 1.68136 8.54769 1.80185 10.0022 1.80185C11.4568 1.80185 14.5845 1.68582 15.8963 2.2035C16.7708 2.5516 17.4445 3.22548 17.797 4.10465C18.319 5.42118 18.1985 8.54513 18.1985 10C18.1985 11.4549 18.319 14.5833 17.797 15.8953Z"/>
+                                </svg>
+                            </div>
+                        </a>
+                        <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="_blank">
+                            <div class="social">
+                                <svg width="20" height="20" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                                <path d="M64 2C29.8 2 2 29.8 2 64c0 10.5 2.599 20.8 7.699 29.9L4.4 113.3c-.9 3.1 0 6.3 2.3 8.6s5.5 2.2 8.6 1.4L35.5 119c8.8 4.6 18.6 7 28.6 7 34.2 0 62-27.8 62-62 0-16.6-6.4-32.1-18.1-43.8C96.2 8.5 80.6 2 64 2zm0 6c15 0 29.1 5.8 39.6 16.4C114.2 35 120.1 49.1 120 64c0 30.9-25.1 56-56 56-9.3 0-18.6-2.4-26.8-6.8-.4-.2-.9-.4-1.4-.4-.3 0-.5 0-.8.1l-21.3 5.6c-1.5.4-2.5-.3-2.9-.8-.4-.4-1.2-1.4-.8-2.9l5.6-20.6c.2-.8.1-1.6-.3-2.3C10.5 83.5 8 73.8 8 64 8 33.1 33.1 8 64 8zm0 9c-25.9 0-47 20.9-47 47 0 8.3 2.2 16.4 6.3 23.5 1.6 2.8 2 6.1 1.2 9.2l-2.9 10.5 11.2-2.9c1-.3 2-.4 3-.4 2 0 4 .5 5.7 1.5 6.9 3.6 14.6 5.6 22.5 5.6 25.9 0 47-21.1 47-47 0-12.6-4.9-24.4-13.8-33.3C88.4 21.9 76.6 17 64 17zm-20.9 19.7h2.8c1.1 0 2.2.1 3.3 2.5 1.3 2.9 4.2 10.2 4.5 10.9.4.7.5 1.6 0 2.6s-.7 1.6-1.5 2.5c-.7.9-1.6 2-2.2 2.7-.7.7-1.5 1.5-.6 3 1 1.5 3.9 6.3 8.3 10.2 5.6 5 10.4 6.7 11.9 7.4 1.5.7 2.3.6 3.2-.4.9-1 3.7-4.3 4.7-5.8 1-1.5 2-1.2 3.3-.7 1.4.5 8.6 4.1 10.1 4.8s2.5 1 2.8 1.6c.4.8.4 3.7-.8 7.2s-7.2 6.8-10 7c-2.7.2-5.2 1.2-17.7-3.7-15-5.9-24.5-21.3-25.2-22.3-.7-1-6-8.1-6-15.4 0-7.3 3.8-10.8 5.2-12.3 1.4-1.5 2.9-1.8 3.9-1.8z"/>
+                                </svg>
+                            </div>
+                        </a>                        
+                    </div>
+                </div>
+            </nav>
+         
+      
+          </div>
+        </section>
+        <p class="frace">
+            lo mejor. para el mejor...!
+        </p>
+        <!--AQUI COMENZQAOS CON LA SEGUNDA PARTE DEL HEADER-->
+        <div class="header-content container">
+
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+                    <!--SLIDER 1-->
+                     <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>adias Crazy fast</h1>
+                                <p>
+                                    Lleva tu velocidad al siguiente nivel con los adidas X Crazyfast negras clasicas. Diseñados para quienes dominan la cancha
+                                    con agilidad y explosividad, estas zapatilas ofrecen una tracción excepcional en césped sintético y un ajuste
+                                    ligero que se adapta perfectamente a tus movimientos. Con un diseño moderno y agresivo en negro y detalles llamativos, 
+                                    serás imparable desde el primer minuto. ¡Haz que tu juego hable por ti con los Crazyfast!
+                                </p>
+                                <div class="botones">
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" class="btn-1">Comprar</a>
+                                    <a href="#" class="btn-1">Información</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+
+                                <video autoplay loop muted playsinline >
+                                    <source src="imagenes/Categoria/Grass sintético/Chimpunes_X_Crazyfast.3_Cesped_artificial_Negro_ID9336_video.webm" type="video/webm">
+                                      
+                                </video>                              
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!--<!--SLIDER 2-->
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>adidas GOLETTO</h1>
+                                <p>
+                                    Clásico, cómodo y confiable. Las Adidas Goletto son ideales para jugadores que
+                                    buscan un buen rendimiento a un precio accesible. Con su diseño resistente, suela
+                                    con excelente tracción y ajuste cómodo, estas botas son perfectas para fútbol en
+                                    césped natural o sintético. ¡Listas para jugar!
+
+                                </p>
+                                <div class="botones">
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" class="btn-1">Comprar</a>
+                                    <a href="#" class="btn-1">información</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="imagenes/Categoria/Grass sintético/S2goletocamerino.webp" alt="">
+                              
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!--<!--SLIDER 3-->
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>ADIDAS F50</h1>
+                                <p>
+                                    ¡Velocidad y estilo en cada paso! Las Adidas F50 están diseñadas para jugadores que
+                                    buscan ligereza, tracción y máximo rendimiento en la cancha. Con su diseño
+                                    aerodinámico y materiales de alta calidad, estas zapatillas ofrecen una combinación
+                                    perfecta de control y velocidad. ¡Listas para llevar tu juego al siguiente nivel!
+                                </p>
+                                <div class="botones">
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" class="btn-1">Comprar</a>
+                                    <a href="#" class="btn-1">información</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <div class="slider-galeria">
+                                   <img src="imagenes/Categoria/Chimpunes/S1f50camerino.png" alt="">  
+                                </div>
+                               
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!--SLIDER 4-->
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>ADIDAS predator</h1>
+                                <p>
+                                    Descubre la potencia y precisión con la Bota adidas Predator Elite FT FG - Jude Bellingham en edición limitada.
+                                    Diseñada para jugadores que dominan el juego, combina un elegante acabado negro y dorado con tecnología de alto 
+                                    rendimiento para césped firme. Inspirada en el estilo único de Jude Bellingham, esta bota te ofrece ajuste sin 
+                                    cordones, máximo control del balón y una presencia imponente en la cancha.
+                                </p>
+                                <div class="botones">
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" class="btn-1">Comprar</a>
+                                    <a href="#" class="btn-1">información</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <div class="slider-galeria">
+                                   <img src="imagenes/Categoria/Chimpunes/bota-adidas-predator-elite-ft-fg-jude-bellingham-negro-dorado-negro-0.webp" alt="">  
+                                </div>
+                               
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!--SLIDER 5-->
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Nike Mercurial Vapor 16</h1>
+                                <p>
+                                    Alcanza tu máxima velocidad con las Nike Mercurial Vapor 16 Elite, diseñadas para jugadores explosivos.
+                                    Su estructura ultraligera, ajuste ceñido tipo segunda piel y placa Aerotrak te brindan aceleración y tracción 
+                                    incomparables. Perfectas para quienes marcan la diferencia en cada jugada.
+                                </p>
+                                <div class="botones">
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" class="btn-1">Comprar</a>
+                                    <a href="#" class="btn-1">informacón</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <div class="slider-galeria">
+                                   <img src="imagenes/Categoria/Chimpunes/Nike Mercurial Vapor 16 Elite.jpg" alt="">  
+                                </div>
+                               
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!--SLIDER 6-->
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>joma Top Flex Rebound Celeste</h1>
+                                <p>
+                                    Domina la cancha con las Top Flex Rebound 2505 IN en su elegante tono celeste! Diseñadas especialmente 
+                                    para el fútbol sala, estas zapatillas combinan flexibilidad, resistencia y confort, ofreciéndote el mejor 
+                                    rendimiento en cada partido
+                                </p>
+                                <div class="botones">
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" class="btn-1">Comprar</a>
+                                    <a href="#" class="btn-1">Información</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <div class="slider-galeria">
+                                   <img src="imagenes/Categoria/Grass sintético/JOMA SINTETICO.jpg" alt="">  
+                                </div>
+                               
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!--SLIDER 7-->
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>puma ULTRA 5 MATCH</h1>
+                                <p>
+                                    Ligereza y velocidad en cada jugada. Las Puma Ultra 5 Match están diseñadas para
+                                    jugadores rápidos que buscan explosividad y control. Con su exterior de material
+                                    sintético ligero y suela optimizada para tracción, ofrecen un excelente rendimiento
+                                    en partidos intensos. ¡Ideales para destacar en la cancha!
+                                </p>
+                                <div class="botones">
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" class="btn-1">Comprar</a>
+                                    <a href="#" class="btn-1">Información</a>
+                                </div>
+                            </div>
+
+                            <div class="slider-img">
+                                <img src="imagenes/Categoria/Chimpunes/AG-unisex.avif" alt="shavvjsdvjavj">
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+                <!--BOTONES-->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+
+        </div>
+    </header>
+    <!--TODO EL HEADER HACE REFERENCIA AL MENU-->
+
+    <main class="products" id="products">
+        <div class="tabs container">
+
+            <input type="radio" name="tabs" id="tab1" checked="checked" class="tabInput" value="1">
+            <label for="tab1">Chimpunes</label> <!--//para mostrar la imagen de prueba-->
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper1">
+
+                    <div class="swiper-wrapper">
+
+                        <!--para el producto 1-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4> <!--esto es para el nombre  o titulo de la imagen-->
+                                    <img src="imagenes/Categoria/Chimpunes/CESPED1.avif" alt=""> <!--//para cambiar la imagen adecuada-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>F50 Reborn Terreno Firme</h4>
+                                    <p>Gama Elite</p>
+                                    <p>tallas </p>
+                                    <p>38-42</p>
+                                    <span class="price">S/1,199.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--//para el producto2-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Chimpunes/CESPED2.avif" alt="">
+                                    <!--//para cambiar la imagen adecuada por ejemplo aqui era la imagen de food2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>F50 Messi multiterreno</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <p>Gama Club</p>
+                                    <span class="price">S/259.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--para el producto 3 y vamos agregando de acuerdo a nuestros productos-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Chimpunes/CESPED3.webp" alt="">
+                                    <!--//para cambiar la imagen adecuada de acuerdo a los que tenemos por ejemplo ahi era fgood 2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Nike Phantom GX 2</h4>
+                                    <p>Gama Elite</p>
+                                    <span class="price">S/1,079.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                     >
+                        <!--para el producto 4 y vamos agregando de acuerdo a nuestros productos-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Chimpunes/Chimpunes_F50_Club_Terreno_Firme_Azul_IE1245_22_model.jpg" alt="">
+                                    <!--//para cambiar la imagen adecuada de acuerdo a los que tenemos por ejemplo ahi era fgood 2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>F50 Terreno Firme Azul</h4>
+                                    <p>Gama club</p>
+                                    <span class="price">sin stock</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--para el producto 5 y vamos agregando de acuerdo a nuestros productos-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Chimpunes/Chimpunes_Predator_League_Terreno_Firme-Multiterreno_Blanco_JI1116_22_model.jpg" alt="">
+                                    <!--//para cambiar la imagen adecuada de acuerdo a los que tenemos por ejemplo ahi era fgood 2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Predator Terreno Firme</h4>
+                                    <p>Gama league</p>
+                                    <span class="price">S/359.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--para el producto 6 y vamos agregando de acuerdo a nuestros productos-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Chimpunes/Chimpunes_Predator_League_Lengueta_Plegable_Terreno_Firme-_Multiterreno_Blanco_JI1114_22_model.jpg" alt="">
+                                    <!--//para cambiar la imagen adecuada de acuerdo a los que tenemos por ejemplo ahi era fgood 2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Predator con Lengueta Plegable Terreno Firme</h4>
+                                    <p>Gama league</p>
+                                    <span class="price">S/359.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--para el producto 7 y vamos agregando de acuerdo a nuestros productos-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Chimpunes/Chimpunes_F50_Elite_Sin_Cordones_Terreno_Firme_Blanco_JH7625_HM1.jpg" alt="">
+                                    <!--//para cambiar la imagen adecuada de acuerdo a los que tenemos por ejemplo ahi era fgood 2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>f50 terreno firme </h4>
+                                    <p>Gama Elite</p>
+                                    <span class="price">S/1,099.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+            <!--pegamos para la siguiente parte por que se repite PARA EL TAB 2-->
+
+            <input type="radio" name="tabs" id="tab2" checked="checked" class="tabInput" value="2">
+            <label for="tab2">Grass Sintético</label> <!--//para mostrar la imagen de prueba-->
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper2">
+
+                    <div class="swiper-wrapper">
+
+                        <!--para el producto f50 messi club-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--esto es para el nombre  o titulo de la imagen-->
+                                    <img src="imagenes/Categoria/Grass sintético/Zapatilla_de_futbol_F50_Messi_Club_para_cesped_artificial.jpg" alt=""> <!--//para cambiar la imagen adecuada-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>f50 messi </h4>
+                                    <p>gama club</p>
+                                    <span class="price">S/250.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--//para el producto2-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Grass sintético/Zapatilla_F50_League_Sin_Pasadores_Pasto_Sintetico_Blanco_JR4404_22_model.jpg" alt="">
+                                    <!--//para cambiar la imagen adecuada por ejemplo aqui era la imagen de food2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>f50 sin pasadores</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <p>gama league</p>
+                                    <span class="price">S/359.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--para el producto 3 y vamos agregando de acuerdo a nuestros productos-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Grass sintético/Chimpunes_Predator_League_Pasto_sintetico_Blanco_JI1134_22_model.jpg" alt="">
+                                    <!--//para cambiar la imagen adecuada de acuerdo a los que tenemos por ejemplo ahi era fgood 2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>predator blanco</h4>
+                                    <p>gama league</p>
+                                    <span class="price">S/359.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--para el producto 4 -->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Grass sintético/Chimpunes_Predator_Club_para_pasto_sintetico_Blanco_JR7010_22_model.jpg" alt="">
+                                    <!--//para cambiar la imagen adecuada de acuerdo a los que tenemos por ejemplo ahi era fgood 2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>predator blanco</h4>
+                                    <p>gama club</p>
+                                    <span class="price">S/250.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper.swiper-button-next"></div>
+                    <div class="swiper.swiper-button-prev"></div>
+                </div>
+            </div>
+
+            <!--pegamos para la siguiente parte por que se repite PARA EL TAB 3-->
+
+            <input type="radio" name="tabs" id="tab3" checked="checked" class="tabInput" value="3">
+            <label for="tab3">running</label> <!--//para mostrar la imagen de prueba-->
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper3">
+
+                    <div class="swiper-wrapper">
+
+                        <!--para el producto 1-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--esto es para el nombre  o titulo de la imagen-->
+                                    <img src="imagenes/Categoria/Running/Zapatillas_Adizero_EVO_SL_Blanco_JH6206_00_plp_standard.jpg" alt=""> <!--//para cambiar la imagen adecuada-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Adizero EVO SL Blanco </h4>
+                                    <p>     original  </p>
+                                    <span class="price">Sin stock </span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--//para el producto2-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Running/Zapatillas_de_Running_Duramo_SL_2_Blanco_JS4395_HM1.jpg" alt="">
+                                    <!--//para cambiar la imagen adecuada por ejemplo aqui era la imagen de food2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Running Duramo SL 2</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <p> original</p>
+                                    <span class="price">S/229.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--para el producto 3 y vamos agregando de acuerdo a nuestros productos-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Running/Zapatillas_de_Running_Switch_Move_Azul_ID8329_01_standard.avif" alt="">
+                                    <!--//para cambiar la imagen adecuada de acuerdo a los que tenemos por ejemplo ahi era fgood 2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Switch Move</h4>
+                                    <p>   </p>
+                                    <span class="price">S/179.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--aqui ponemos por si quermos meter mas productos los que sean necesarios-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Running/Zapatillas_de_Running_Switch_Move_Azul_ID8329_01_standard.avif" alt="">
+                                    <!--//para cambiar la imagen adecuada de acuerdo a los que tenemos por ejemplo ahi era fgood 2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Switch Move</h4>
+                                    <p>   </p>
+                                    <span class="price">S/179.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper.swiper-button-next"></div>
+                    <div class="swiper.swiper-button-prev"></div>
+                </div>
+            </div>
+
+            <!--PRUEBA PARA OTRO CAMPO-->
+            <input type="radio" name="tabs" id="tab4" checked="checked" class="tabInput" value="4">
+            <label for="tab4">POLOS</label> <!--//para mostrar la imagen de prueba-->
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper3">
+
+                    <div class="swiper-wrapper">
+
+                        <!--para el producto 1-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--esto es para el nombre  o titulo de la imagen-->
+                                    <img src="imagenes/Categoria/Polos/Camiseta_local_autentica_Real_Madrid_25-26_Blanco_JV5918_HM30.avif" alt=""> <!--//para cambiar la imagen adecuada-->
+                                    <img src="imagenes/Categoria/Polos/polo real madrid.jpeg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Camiseta local Real Madrid 25/26</h4>
+                                    <p>auténtica</p>
+                                    <span class="price">S/449.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+                                    
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--//para el producto2-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Polos/Camiseta_Local_Seleccion_Peruana_2024_Ninos_Blanco_IQ2444_01_laydown.avif" alt="">
+                                    <img src="imagenes/Categoria/Polos/polo peru reverso.jpg" alt="">
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Camiseta Local Selección Peruana 2024</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <p>ORIGINAL</p>
+                                    <span class="price">S/259.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--para el producto 3 y vamos agregando de acuerdo a nuestros productos-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Polos/Camiseta_Local_Seleccion_Argentina_24_Blanco_IP8409_01_laydown.avif" alt="">
+                                    <img src="imagenes/Categoria/Polos/Camiseta_Local_Seleccion_Argentina reverso}.avif" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Camiseta Local Seleccion Argentina</h4>
+                                    <p>ORIGINAL</p>
+                                    <span class="price">S/329.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--para el producto 4 y vamos agregando de acuerdo a nuestros productos-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Polos/poloalianza.jpg" alt="">
+                                    <img src="imagenes/Categoria/Polos/polo alainza f.jpeg" alt="">
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Camiseta local alianza lima</h4>
+                                    <p>ORIGINAL</p>
+                                    <span class="price">S/250.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--para el producto 5 y vamos agregando de acuerdo a nuestros productos-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Polos/polouniversitario.jpg" alt="">
+                                    <img src="imagenes/Categoria/Polos/polo u f.jpeg">
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Camiseta local universitario de deportes </h4>
+                                    <p>ORIGINAL</p>
+                                    <span class="price">S/200.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--para el producto 6 y vamos agregando de acuerdo a nuestros productos-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Polos/polocristal.avif" alt="">
+                                    <img src="imagenes/Categoria/Polos/polo cristal f.jpeg" alt="">
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>camiseta local Sporting cristal</h4>
+                                    <p>ORIGINAL</p>
+                                    <span class="price">S/250.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--para el producto 3 y vamos agregando de acuerdo a nuestros productos-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Polos/polointer.jpg" alt="">
+                                    <img src="imagenes/Categoria/Polos/camiseta inter f.jpeg">
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>camiseta internacional inter de milan </h4>
+                                    <p>ORIGINAL</p>
+                                    <span class="price">S/250.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--para el producto 3 y vamos agregando de acuerdo a nuestros productos-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Polos/polo al nasser.png" alt="">
+                                    <img src="imagenes/Categoria/Polos/camiseta alnassr f.jpeg">
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Camiseta de Local Al Nassr FC 24/25 </h4>
+                                    <p>ORIGINAL</p>
+                                    <span class="price">S/250.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>                    
+                        <!--aqui ponemos por si quermos meter mas productos los que sean necesarios-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Polos/Camiseta_Local_Inter_Miami_CF_25-26_Messi_Rosado_JI6817_HM30.avif" alt="">
+                                    <img src="imagenes/Categoria/Polos/camiseta local inter miami f.jpeg">
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Camiseta de Local inter miami cf</h4>
+                                    <p>ORIGINAL</p>
+                                    <span class="price">S/230.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Polos/camiseta-umbro-santos-fc-23-24-home-jersey.jpg" alt="">
+                                    <img src="imagenes/Categoria/Polos/camiseta santos umbro f.jpeg">
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Camiseta umbro santos fc</h4>
+                                    <p>retro</p>
+                                    <span class="price">S/130.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Polos/Camiseta-Manchester-City-local-para-hombre.avif" alt="">
+                                    <img src="imagenes/Categoria/Polos/camiseta macher city f.jpeg">
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Camiseta Manchester City local</h4>
+                                    <p>retro</p>
+                                    <span class="price">S/130.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                           <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Polos/polo barcelona.webp" alt="">
+                                    <img src="imagenes/Categoria/Polos/polo barcelona f.jpeg">
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Camiseta barcelona fc 24/25</h4>
+                                    <p>retro</p>
+                                    <span class="price">S/150.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper.swiper-button-next"></div>
+                    <div class="swiper.swiper-button-prev"></div>
+                </div>
+            </div>
+
+            <!--PRUEBA PARA OTRO CAMPO-->
+            <input type="radio" name="tabs" id="tab5" checked="checked" class="tabInput" value="5">
+            <label for="tab5">calcetines</label> <!--//para mostrar la imagen de prueba-->
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper3">
+
+                    <div class="swiper-wrapper">
+
+                        <!--para el producto 1-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--esto es para el nombre  o titulo de la imagen-->
+                                    <img src="imagenes/Categoria/Medias/Calcetines_adi_23_Blanco_IB7796_00_plp_standard.jpg" alt=""> <!--//para cambiar la imagen adecuada-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Calsetines adi 23</h4>
+                                    <p>ADIDAS</p>
+                                    <span class="price">S/38.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                     <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--//para el producto2-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Medias/Medias_Mid_Crew_2_Pares_Blanco_IB9170_03_standard.avif" alt="">
+                                    <!--//para cambiar la imagen adecuada por ejemplo aqui era la imagen de food2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Mid Crew 2 Pares Blanco</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <p>ADIDAS</p>
+                                    <span class="price">S/80.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--para el producto 3 y vamos agregando de acuerdo a nuestros productos-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Medias/Medias_Milano_23_Azul_IB7818_01_04_standard.avif" alt="">
+                                    <!--//para cambiar la imagen adecuada de acuerdo a los que tenemos por ejemplo ahi era fgood 2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Medias Milano 23 Azul</h4>
+                                    <p>ADIDAS</p>
+                                    <span class="price">S/50.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    
+                        <!--aqui ponemos por si quermos meter mas productos los que sean necesarios-->
+                    </div>
+
+                    <div class="swiper.swiper-button-next"></div>
+                    <div class="swiper.swiper-button-prev"></div>
+                </div>
+            </div>
+
+            <!--PRUEBA PARA OTRO CAMPO-->
+            <input type="radio" name="tabs" id="tab6" checked="checked" class="tabInput" value="6">
+            <label for="tab6">vestuario</label> <!--//para mostrar la imagen de prueba-->
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper3">
+
+                    <div class="swiper-wrapper">
+
+                        <!--para el producto 1-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--esto es para el nombre  o titulo de la imagen-->
+                                    <img src="imagenes/Categoria/Vestuarios/Pantalon_Essentials_de_Tejido_Polar_de_3_Tiras_con_Dobladillo_Abierto_Negro_GK9267_01_laydown.avif" alt=""> <!--//para cambiar la imagen adecuada-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Pantalon Essentials</h4>
+                                    <p>ORIGINAL</p>
+                                    <span class="price">S/380.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--//para el producto2-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Vestuarios/Conjunto_Deportivo_Sportswear_Basic_3_Tiras_Tejido_Azul_JC5391_01_laydown.avif" alt="">
+                                    <!--//para cambiar la imagen adecuada por ejemplo aqui era la imagen de food2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Conjunto Deportivo Sportswear Basic</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <p>ORIGINAL</p>
+                                    <span class="price">S/280.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--para el producto 3 y vamos agregando de acuerdo a nuestros productos-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Vestuarios/pàntalon puma-alianza-lima.webp" alt="">
+                                    <!--//para cambiar la imagen adecuada de acuerdo a los que tenemos por ejemplo ahi era fgood 2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>pantalon alianza lima</h4>
+                                    <p>retro</p>
+                                    <span class="price">S/50.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+                                    
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--para el producto 4 y vamos agregando de acuerdo a nuestros productos-->
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Vestuarios/Polo_Essentials_Linear_Single_Jersey_Plomo_JE9002_01_laydown.avif" alt="">
+                                    <!--//para cambiar la imagen adecuada de acuerdo a los que tenemos por ejemplo ahi era fgood 2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>producto</h4>
+                                    <p>ORIGINAL</p>
+                                    <span class="price">S/50.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--para los demas productos-->
+                    
+                        <!--aqui ponemos por si quermos meter mas productos los que sean necesarios-->
+                    </div>
+
+                    <div class="swiper.swiper-button-next"></div>
+                    <div class="swiper.swiper-button-prev"></div>
+                </div>
+            </div>
+
+            <!--PRUEBA PARA OTRO CAMPO-->
+            <input type="radio" name="tabs" id="tab7" checked="checked" class="tabInput" value="7">
+            <label for="tab7">guantes</label> <!--//para mostrar la imagen de prueba-->
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper3">
+
+                    <div class="swiper-wrapper">
+
+                        <!--para el producto 1-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--esto es para el nombre  o titulo de la imagen-->
+                                    <img src="imagenes/Categoria/Guantes/Guantes Nike Match.webp" alt=""> <!--//para cambiar la imagen adecuada-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>nike match</h4>
+                                    <p>ORIGINAL</p>
+                                    <span class="price">S/129.90</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                    
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--//para el producto2-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Guantes/Guantes COPA_GL_CLB_Azul_JH3790_01_00_standard.avif" alt="">
+                                    <!--//para cambiar la imagen adecuada por ejemplo aqui era la imagen de food2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>COPA GL CLB Azul</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <p>ORIGINAL</p>
+                                    <span class="price">S/380.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--para el producto 3 y vamos agregando de acuerdo a nuestros productos-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Guantes/Guantes PRED_GL_TRN_Blanco_JH3806_01_00_standard.avif" alt="">
+                                    <!--//para cambiar la imagen adecuada de acuerdo a los que tenemos por ejemplo ahi era fgood 2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Predator GL TRN Blanco</h4>
+                                    <p>ORIGINAL</p>
+                                    <span class="price">S/250.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--para el producto 4 -->
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Guantes/Guantes-puma-de-arquero-FUTURE-Ultimate-NC.avif" alt="">
+                                    <!--//para cambiar la imagen adecuada de acuerdo a los que tenemos por ejemplo ahi era fgood 2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>puma FUTURE Ultimate NC</h4>
+                                    <p>ORIGINAL</p>
+                                    <span class="price">S/490.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+                                    
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--para los demas productos a inplemetar-->
+
+                    </div>
+
+                    <div class="swiper.swiper-button-next"></div>
+                    <div class="swiper.swiper-button-prev"></div>
+                </div>
+            </div>
+
+            <!--PRUEBA PARA OTRO CAMPO-->
+            <input type="radio" name="tabs" id="tab8" checked="checked" class="tabInput" value="8">
+            <label for="tab8">pelotas</label> <!--//para mostrar la imagen de prueba-->
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper3">
+
+                    <div class="swiper-wrapper">
+                        <!--para el producto 1-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--esto es para el nombre  o titulo de la imagen-->
+                                    <img src="imagenes/Categoria/Pelotas/Pelota UCL League.avif" alt=""> <!--//para cambiar la imagen adecuada-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Pelota UCL League</h4>
+                                    <p>ORIGINAL</p>
+                                    <span class="price">S/129.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--//para el producto2-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Pelotas/pelota-adidas.avif" alt="">
+                                    <!--//para cambiar la imagen adecuada por ejemplo aqui era la imagen de food2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>pelota adidas</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <p>ORIGINAL</p>
+                                    <span class="price">S/180.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>                        
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Pelotas/Pelota-de-basketball-PUMA-Top.avif" alt="">
+                                    <!--//para cambiar la imagen adecuada por ejemplo aqui era la imagen de food2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>pelota puma</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <p>ORIGINAL</p>
+                                    <span class="price">S/99.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--para el producto 3 y vamos agregando de acuerdo a nuestros productos-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Pelotas/pelota_mikasa_300.webp" alt="">
+                                    <!--//para cambiar la imagen adecuada de acuerdo a los que tenemos por ejemplo ahi era fgood 2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>pelota mikasa</h4>
+                                    <p>ORIGINAL</p>
+                                    <span class="price">S/350.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--para el producto 4 y vamos agregando de acuerdo a nuestros productos-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Pelotas/Pelotapuma-de-fútbol-Orbita-1-FIFA®-Quality-219.avif" alt="">
+                                    <!--//para cambiar la imagen adecuada de acuerdo a los que tenemos por ejemplo ahi era fgood 2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>pelota puma orbita 1 fifa</h4>
+                                    <p>ORIGINAL</p>
+                                    <span class="price">S/210.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>                                     
+                        <!--aqui ponemos por si quermos meter mas productos los que sean necesarios-->
+                    </div>
+
+                    <div class="swiper.swiper-button-next"></div>
+                    <div class="swiper.swiper-button-prev"></div>
+                </div>
+            </div>
+
+            <!--PRUEBA PARA OTRO CAMPO-->
+        
+            <!--PRUEBA PARA OTRO CAMPO-->
+            <input type="radio" name="tabs" id="tab11" checked="checked" class="tabInput" value="11">
+            <label for="tab11">canilleras</label> <!--//para mostrar la imagen de prueba-->
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper3">
+
+                    <div class="swiper-wrapper">
+
+                        <!--para el producto 1-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--esto es para el nombre  o titulo de la imagen-->
+                                    <img src="imagenes/Categoria/Canilleras/Espinilleras_Tiro_Match_para_Ninos_Rosado_IS5600_01_00_standard.avif" alt=""> <!--//para cambiar la imagen adecuada-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Espinilleras Tiro Match</h4>
+                                    <p>ORIGINAL</p>
+                                    <span class="price">S/79.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--//para el producto2-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Canilleras/Canilleras_Messi_Club_Plateado_JN7436_01_00_standard.avif" alt="">
+                                    <!--//para cambiar la imagen adecuada por ejemplo aqui era la imagen de food2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>canillera messi club plateado</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <p>ORIGINAL</p>
+                                    <span class="price">S/80.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                      <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>                                    
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--para el producto 3 -->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Canilleras/Canilleras_Tiro_Club_Blanco_IP3995_01_standard.avif" alt="">
+                                    <!--//para cambiar la imagen adecuada de acuerdo a los que tenemos por ejemplo ahi era fgood 2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>canilleras tiro club blanco</h4>
+                                    <p>ORIGINAL</p>
+                                    <span class="price">S/50.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--para el producto 4 -->
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Canilleras/Espinilleras_Tiro_Club_Verde_JD6021_01_00_standard.avif" alt="">
+                                    <!--//para cambiar la imagen adecuada de acuerdo a los que tenemos por ejemplo ahi era fgood 2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Espinilleras tiro club verde</h4>
+                                    <p>ORIGINAL</p>
+                                    <span class="price">S/90.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--para el producto 5 -->
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Canilleras/canilleras nike mercurial.jpg" alt="">
+                                    <!--//para cambiar la imagen adecuada de acuerdo a los que tenemos por ejemplo ahi era fgood 2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>canilleras nike mercurial elite</h4>
+                                    <p>ORIGINAL</p>
+                                    <span class="price">S/100.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+
+                                </div>
+                            </div>
+                        </div>                   
+                
+                        <!--aqui ponemos por si quermos meter mas productos los que sean necesarios-->
+                    </div>
+
+                    <div class="swiper.swiper-button-next"></div>
+                    <div class="swiper.swiper-button-prev"></div>
+                </div>
+            </div>
+             <!--PRUEBA PARA OTRO CAMPO-->
+            <input type="radio" name="tabs" id="tab12" checked="checked" class="tabInput" value="12">
+            <label for="tab12">Trofeos</label> <!--//para mostrar la imagen de prueba-->
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper3">
+
+                    <div class="swiper-wrapper">
+
+                        <!--para el producto 1-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--esto es para el nombre  o titulo de la imagen-->
+                                    <img src="imagenes/Categoria/Trofeos/balon de oro.jpg" alt=""> 
+                                    <img src="imagenes/Categoria/Trofeos/balon de oro f.jpeg" alt="">
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Balon de oro</h4>
+                                    <p>replica</p>
+                                    <span class="price">S/79.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--//para el producto2-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Trofeos/Replica copa del mundo.webp" alt="">
+                                    <!--//para cambiar la imagen adecuada por ejemplo aqui era la imagen de food2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>copa del mundo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <p>replica</p>
+                                    <span class="price">S/90.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                      <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>                                    
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--para el producto 3 -->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Trofeos/para el mejor goleador.jpg" alt="">
+                                    <!--//para cambiar la imagen adecuada de acuerdo a los que tenemos por ejemplo ahi era fgood 2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>para el mejor jugador </h4>
+                                    <p>top</p>
+                                    <span class="price">S/70.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--para el producto 4 -->
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Trofeos/Trofeo-Mejor-Arquero-Guante-Resina-Dorado-27-cm.png" alt="">
+                                    <!--//para cambiar la imagen adecuada de acuerdo a los que tenemos por ejemplo ahi era fgood 2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>para el mejor arquero</h4>
+                                    <p>retro</p>
+                                    <span class="price">S/90.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--para el producto 5 -->
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Trofeos/para el mejor goleador.webp" alt="">
+                                    <!--//para cambiar la imagen adecuada de acuerdo a los que tenemos por ejemplo ahi era fgood 2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>para el mejor goleador</h4>
+                                    <p>retro</p>
+                                    <span class="price">S/100.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+
+                                </div>
+                            </div>
+                        </div>                   
+                
+                        <!--aqui ponemos por si quermos meter mas productos los que sean necesarios-->
+                    </div>
+
+                    <div class="swiper.swiper-button-next"></div>
+                    <div class="swiper.swiper-button-prev"></div>
+                </div>
+            </div>
+
+            <!--PRUEBA PARA OTRO CAMPO-->
+            <input type="radio" name="tabs" id="tab13" checked="checked" class="tabInput" value="13">
+            <label for="tab13">accesorios</label> <!--//para mostrar la imagen de prueba-->
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper3">
+
+                    <div class="swiper-wrapper">
+
+                        <!--para el producto 1-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--esto es para el nombre  o titulo de la imagen-->
+                                    <img src="imagenes/Categoria/Accesorios/Banda_de_Tenis_para_la_Cabeza_Negro_HT3909_01_standard.avif" alt=""> <!--//para cambiar la imagen adecuada-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>banda de tenis para la cabeza negro</h4>
+                                    <p>ORIGINAL</p>                    
+                                    <span class="price">S/30.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+                                    
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--//para el producto2-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Accesorios/Banda_para_la_cabeza_para_running_con_Climacool_Rojo_JN5443_01_00_standard.avif" alt="">
+                                    <!--//para cambiar la imagen adecuada por ejemplo aqui era la imagen de food2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>banda para la cabeza para correr</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <p>ORIGINAL</p>
+                                    <span class="price">S/40.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--para el producto 3 y vamos agregando de acuerdo a nuestros productos-->
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Accesorios/gorra alinza lima.jpg" alt="">
+                                    <!--//para cambiar la imagen adecuada de acuerdo a los que tenemos por ejemplo ahi era fgood 2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>gorra alianza lima</h4>
+                                    <p>ORIGINAL</p>
+                                    <span class="price">S/60.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Accesorios/Gorra_Daily_Azul_JG5856_01_00_standard.avif" alt="">
+                                    <!--//para cambiar la imagen adecuada de acuerdo a los que tenemos por ejemplo ahi era fgood 2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>gorra daily azul</h4>
+                                    <p>ORIGINAL</p>
+                                    <span class="price">S/49.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Accesorios/Gorra_Daily_Blanco_IC9707_01_00_standard.avif" alt="">
+                                    <!--//para cambiar la imagen adecuada de acuerdo a los que tenemos por ejemplo ahi era fgood 2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>gorra daily blanco</h4>
+                                    <p>ORIGINAL</p>
+                                    <span class="price">S/49.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Accesorios/Gorra_Fan_Algodon_Mercedes_-_AMG_Petronas_Formula_One_Team_Plomo_JX1414_01_00_standard.avif" alt="">
+                                    <!--//para cambiar la imagen adecuada de acuerdo a los que tenemos por ejemplo ahi era fgood 2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>gorra mercedes amg </h4>
+                                    <p>ORIGINAL</p>
+                                    <span class="price">S/80.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4> <!--aqui cambian el nombre del producto segun la imagen-->
+                                    <img src="imagenes/Categoria/Accesorios/Visera_de_Running_AEROREADY_Blanco_JD1159_01_00_standard.avif" alt="">
+                                    <!--//para cambiar la imagen adecuada de acuerdo a los que tenemos por ejemplo ahi era fgood 2-->
+
+                                </div>
+                                <div class="product-txt">
+                                    <h4>visera para correr</h4>
+                                    <p>ORIGINAL</p>
+                                    <span class="price">S/39.00</span> <!--//esta en ingles paRA CAMBIAR-->
+                                    <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw" target="black">                                    
+                                    <button class="btn-categoria">Pidelo Ya..!</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--aqui ponemos por si quermos meter mas productos los que sean necesarios-->
+                    </div>
+
+                    <div class="swiper.swiper-button-next"></div>
+                    <div class="swiper.swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--abrimos una nueva seccion-->
+    <section class="info container" id ="info container">
+        <div class="info-img">
+            <img src="imagenes/Categoria/Chimpunes/Chimpunes_Copa_Pure_3_Elite_Terreno_firme_Blanco_JH6303_HM1.jpg" alt="">
+            <!--AQUI EN EL EJEMPLO PONE LA IMAGEN DE INFO PNJ Y NO SE QUE ERRA-->
+            <!--aqui cambiamos por la imagen info pnj que no se que es o donde va -->
+        </div>
+
+        <div class="info-txt">
+            <h2>Copa Pure 3 Elite</h2>
+            <p>
+                Cada toque hábil. Cada pase exquisito. Combina tu juego perfecto con los chimpunes Copa Pure 3 para una conexión impecable 
+                con la pelota en todo momento. Estos chimpunes Elite incorporan una lengüeta adidas PRIMEKNIT, talón acolchado y plantilla 
+                OrthoLite® para un ajuste perfecto. El exterior de cuero Fusionskin te ayuda a mantener la pelota cerca, y la suela Comfortframe 
+                te garantiza una clase aparte en terreno firme.
+            </p>
+            <a href="#" class="btn-2">mas informacion</a>
+        </div>
+        
+
+    </section>   
+    <!--creamos la otra seccion para los horaris-->
+    <section class="horario">
+        <div class="horario-info container">
+            <!--copiamos lo mismo para la ubicacion-->
+            <h2>Horario</h2>
+            <div class="horario-txt">
+                <div class="txt">
+                    <h4>Dirección</h4>
+                    <p>
+                        
+                        Prolg. Ayacucho D3 lote<!--PARA LA DIRECION AMOSBOS-->
+                    </p>
+                    <p>
+                        Urb. Santa Mercedes
+                    </p>
+                    <p>
+                        a una cuadra C.C Real Plaza
+                    </p>
+                    <p>
+                        Cajamarca
+                    </p>
+                </div>
+                <!--copiamos lo mismo para el horario-->
+
+                <div class="txt">
+                    <h4>Horario</h4>
+                    <p>
+                        Lunes a viernes de 7am - 9 pm
+
+                    </p>
+                    <p>
+                        
+                        Sabado a domingo de 7am - 12 pm
+                    </p>
+                </div>
+
+                <!--copiamos otra vez pero esta vez para contacto cmo telefono-->
+                <div class="txt">
+                    <h4>Telefono</h4>
+                    <p>
+                        933 825 685
+                    </p>
+                    <p>
+                        986 044 015
+                    </p>
+                    <p>
+                        Telefono fijo por confirmar 
+                    </p>
+                </div>            
+                
+            </div>
+        </div>
+    </section>
+    <!--CREAMOS UNA NUEVA SECCION PARA EL MAPA-->
+    <section>
+        <iframe class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1012.8893527745028!2d-78.50630723976005!3d-7.152149381286828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91b25b05c7c414cd%3A0x6da1ab614c1dec85!2sCAMERINO%20SPORTS%20E.I.R.L!5e1!3m2!1ses-419!2spe!4v1747543875268!5m2!1ses-419!2spe"
+            width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <!--CREANOS LA SECCION PARA EL FOTER QUE TAMBIEN PODEMOS CAMBIAR O ACTUALIZAR EL LOGO-->
+    <footer class="footer container">
+        <img class="logo-2f" src="imagenes/Logos/Logocamerino.png" alt="">
+        <div class="links">
+            <h4>Recursos</h4>
+            <ul>
+                <li><a href="#products">Catálogo de productos</a></li> <!--esto sirve para poner los link segun a lo que necesitemos-->
+                <li><a href="#">Ofertas y descuentos</a></li>
+                <li><a href="#info container">Novedades deportivas</a></li>
+                <li><a href="#">Cuidados del producto</a></li>
+            </ul>
+        </div>
+        <!--copiamos 1 vez-->
+        <div class="links">
+            <h4>Ayuda</h4>
+            <ul>
+                <li><a href="#">Preguntas frecuentes (FAQ)</a></li> <!--esto sirve para poner los link segun a lo que necesitemos-->
+                <li><a href="#">Cambios y devoluciones</a></li>
+                <li><a href="#">Envíos y tiempos de entrega</a></li>
+                <li><a href="#">Contacto con soporte</a></li>
+            </ul>
+        </div>
+        <!--copiamos otra vez-->
+        <div class="links">
+            <h4>Empresa</h4>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/nosotros.html">Sobre nosotros</a></li> <!--esto sirve para poner los link segun a lo que necesitemos-->
+                <li><a href="#">Políticas de privacidad</a></li>
+                <li><a href="#">Términos y condiciones</a></li>
+                <li><a href="#">Libro de reclamaciones</a></li>
+            </ul>
+        </div>        
+        <!--copiamos una ultima vez por que es para la redes sociales-->
+        <div class="links">
+            <h4>REDES SOCIALES</h4>
+            <div class="socials2">
+                <a href="https://www.facebook.com/CamerinoSports/">
+                            <div class="social2">
+                                <svg width="13" height="20" viewBox="0 0 13 20" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                                 <path d="M12.1481 11.25L12.8222 7.63047H8.60725V5.28164C8.60725 4.29141 9.19605 3.32617 11.0838 3.32617H13V0.244531C13 0.244531 11.2611 0 9.59853 0C6.12738 0 3.85847 1.73359 3.85847 4.87188V7.63047H0V11.25H3.85847V20H8.60725V11.25H12.1481Z"/>
+                                </svg>
+
+                            </div>
+                        </a>
+                        <a href="https://www.tiktok.com/@camerinosports">
+                            <div class="social2">
+                              
+                                <svg width="20" height="20" viewBox="0 0 42 42" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                                  <g>
+                                    <path d="M14 15.599v-1.486A13.1 13.1 0 0 0 12.337 14C5.535 14 0 19.18 0 25.547 0 29.452 2.086 32.91 5.267 35c-2.13-2.132-3.315-4.942-3.313-7.861 0-6.276 5.377-11.394 12.046-11.54"/>
+                                    <path d="M14.327 32c2.876 0 5.221-2.273 5.328-5.107l.01-25.292h4.65A8.72 8.72 0 0 1 24.164 0h-6.35l-.011 25.293c-.106 2.832-2.453 5.105-5.328 5.105a5.329 5.329 0 0 1-2.476-.61A5.34 5.34 0 0 0 14.327 32m18.672-21.814V8.78a8.818 8.818 0 0 1-4.81-1.421A8.85 8.85 0 0 0 33 10.186"/>
+                                    <path d="M28 7.718A8.63 8.63 0 0 1 25.832 2h-1.697A8.735 8.735 0 0 0 28 7.718M12.325 20.065c-2.94.004-5.322 2.361-5.325 5.27A5.267 5.267 0 0 0 9.854 30a5.2 5.2 0 0 1-1.008-3.073c.003-2.91 2.385-5.268 5.325-5.271.55 0 1.075.09 1.572.244v-6.4a11.72 11.72 0 0 0-1.572-.114c-.092 0-.183.006-.274.007v4.916a5.286 5.286 0 0 0-1.572-.244"/>
+                                    <path d="M32.153 11v4.884a15.15 15.15 0 0 1-8.813-2.811V25.84c0 6.377-5.23 11.565-11.658 11.565-2.485 0-4.789-.778-6.682-2.097A11.67 11.67 0 0 0 13.528 39c6.429 0 11.659-5.188 11.659-11.564V14.668A15.15 15.15 0 0 0 34 17.478v-6.283A8.87 8.87 0 0 1 32.153 11"/>
+                                    <path d="M23.979 25.42V12.632A15.741 15.741 0 0 0 33 15.448v-4.89a9.083 9.083 0 0 1-4.912-2.82C26.016 6.431 24.586 4.358 24.132 2h-4.747l-.01 25.215c-.11 2.824-2.505 5.09-5.44 5.09-1.754-.002-3.398-.822-4.42-2.204-1.794-.913-2.919-2.716-2.92-4.682.003-2.92 2.44-5.285 5.45-5.289.56 0 1.098.09 1.608.245v-4.933C7.202 15.589 2 20.722 2 27.016c0 3.045 1.219 5.816 3.205 7.885A12.115 12.115 0 0 0 12.045 37c6.58 0 11.934-5.195 11.934-11.58"/>
+                                  </g>
+                                </svg>
+
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/camerino_sports_oficial/">
+                            <div class="social2">
+                                <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                                    <path d="M10.0022 4.87225C7.16453 4.87225 4.87563 7.16166 4.87563 10C4.87563 12.8383 7.16453 15.1277 10.0022 15.1277C12.8399 15.1277 15.1288 12.8383 15.1288 10C15.1288 7.16166 12.8399 4.87225 10.0022 4.87225ZM10.0022 13.3337C8.16843 13.3337 6.66927 11.8387 6.66927 10C6.66927 8.16133 8.16397 6.66629 10.0022 6.66629C11.8405 6.66629 13.3352 8.16133 13.3352 10C13.3352 11.8387 11.836 13.3337 10.0022 13.3337ZM16.5343 4.6625C16.5343 5.32746 15.9989 5.85853 15.3385 5.85853C14.6737 5.85853 14.1428 5.32299 14.1428 4.6625C14.1428 4.00201 14.6782 3.46647 15.3385 3.46647C15.9989 3.46647 16.5343 4.00201 16.5343 4.6625ZM19.9297 5.87638C19.8539 4.27424 19.488 2.85507 18.3146 1.68582C17.1456 0.516568 15.7267 0.150619 14.1249 0.070289C12.4741 -0.0234297 7.52593 -0.0234297 5.87507 0.070289C4.27775 0.146156 2.8589 0.512105 1.68544 1.68136C0.511991 2.85061 0.150586 4.26978 0.0702733 5.87192C-0.0234244 7.52315 -0.0234244 12.4724 0.0702733 14.1236C0.146124 15.7258 0.511991 17.1449 1.68544 18.3142C2.8589 19.4834 4.27329 19.8494 5.87507 19.9297C7.52593 20.0234 12.4741 20.0234 14.1249 19.9297C15.7267 19.8538 17.1456 19.4879 18.3146 18.3142C19.4835 17.1449 19.8494 15.7258 19.9297 14.1236C20.0234 12.4724 20.0234 7.52761 19.9297 5.87638ZM17.797 15.8953C17.449 16.7701 16.7752 17.4439 15.8963 17.7965C14.58 18.3186 11.4568 18.1981 10.0022 18.1981C8.54769 18.1981 5.41997 18.3142 4.1082 17.7965C3.23369 17.4484 2.55996 16.7745 2.20747 15.8953C1.68544 14.5788 1.80591 11.4549 1.80591 10C1.80591 8.54513 1.68991 5.41671 2.20747 4.10465C2.55549 3.22995 3.22922 2.55606 4.1082 2.2035C5.42443 1.68136 8.54769 1.80185 10.0022 1.80185C11.4568 1.80185 14.5845 1.68582 15.8963 2.2035C16.7708 2.5516 17.4445 3.22548 17.797 4.10465C18.319 5.42118 18.1985 8.54513 18.1985 10C18.1985 11.4549 18.319 14.5833 17.797 15.8953Z"/>
+                                </svg>
+
+                            </div>
+                        </a>
+                        <a href="https://api.whatsapp.com/send?phone=51933825682&text=Enlace%3A%0Ahttps%3A%2F%2Ffb.me%2F8wxazpxWs%0A%0AVi+esto+en+Facebook...&context=AfePjuuZblsqXzkX-x7Tv2JddJkfdy0lmxtWoyj-z5VZn9OF31JIHdY9ujclIk_c4PSzL5UofgQifTKSp2IUvVFwXiVktWfPmLHmydUBin2BpqXiy4ah3hISLX-MVHEIHcEaR3palrispM_xgEPRA351FA&source&app=facebook&fbclid=IwY2xjawLLnzBleHRuA2FlbQIxMABicmlkETFORkw4Mk85WkNBOG9GWjc0AR71q8GSstdGlUk28uG-L2zWdSjOhmP1wrm4rnqEJs71yrLgWYW0XVhEmfaVpA_aem_QLKvDgA8WUU7hk1oaylBaw">
+                            <div class="social2">
+                                <svg width="20" height="20" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                                <path d="M64 2C29.8 2 2 29.8 2 64c0 10.5 2.599 20.8 7.699 29.9L4.4 113.3c-.9 3.1 0 6.3 2.3 8.6s5.5 2.2 8.6 1.4L35.5 119c8.8 4.6 18.6 7 28.6 7 34.2 0 62-27.8 62-62 0-16.6-6.4-32.1-18.1-43.8C96.2 8.5 80.6 2 64 2zm0 6c15 0 29.1 5.8 39.6 16.4C114.2 35 120.1 49.1 120 64c0 30.9-25.1 56-56 56-9.3 0-18.6-2.4-26.8-6.8-.4-.2-.9-.4-1.4-.4-.3 0-.5 0-.8.1l-21.3 5.6c-1.5.4-2.5-.3-2.9-.8-.4-.4-1.2-1.4-.8-2.9l5.6-20.6c.2-.8.1-1.6-.3-2.3C10.5 83.5 8 73.8 8 64 8 33.1 33.1 8 64 8zm0 9c-25.9 0-47 20.9-47 47 0 8.3 2.2 16.4 6.3 23.5 1.6 2.8 2 6.1 1.2 9.2l-2.9 10.5 11.2-2.9c1-.3 2-.4 3-.4 2 0 4 .5 5.7 1.5 6.9 3.6 14.6 5.6 22.5 5.6 25.9 0 47-21.1 47-47 0-12.6-4.9-24.4-13.8-33.3C88.4 21.9 76.6 17 64 17zm-20.9 19.7h2.8c1.1 0 2.2.1 3.3 2.5 1.3 2.9 4.2 10.2 4.5 10.9.4.7.5 1.6 0 2.6s-.7 1.6-1.5 2.5c-.7.9-1.6 2-2.2 2.7-.7.7-1.5 1.5-.6 3 1 1.5 3.9 6.3 8.3 10.2 5.6 5 10.4 6.7 11.9 7.4 1.5.7 2.3.6 3.2-.4.9-1 3.7-4.3 4.7-5.8 1-1.5 2-1.2 3.3-.7 1.4.5 8.6 4.1 10.1 4.8s2.5 1 2.8 1.6c.4.8.4 3.7-.8 7.2s-7.2 6.8-10 7c-2.7.2-5.2 1.2-17.7-3.7-15-5.9-24.5-21.3-25.2-22.3-.7-1-6-8.1-6-15.4 0-7.3 3.8-10.8 5.2-12.3 1.4-1.5 2.9-1.8 3.9-1.8z"/>
+                                </svg>
+
+                            </div>
+                        </a>
+                
+                
+            </div>
+        </div>
+    
+    </footer>
+    <p class="derechosdeautor">
+            © 2025 Wiliton Cortez. Todos los derechos reservados.
+    </p>
+          
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
